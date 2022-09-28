@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-   <CaculatorComp></CaculatorComp>
+    <Calculator></Calculator>
   </div>
 </template>
 
 <script>
-import CalculatorComp from './components/CaculatorComp.vue'
+import Calculator from './components/Calculator.vue'
 export default {
   name: 'App',
   components: {
-    CalculatorComp
+    Calculator
   }
 }
 </script>
 
 <style>
-
+  body{
+    background: #31475e !important;
+  }
 </style>
